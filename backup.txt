@@ -1,0 +1,54 @@
+// return (
+    //     <View>
+    //         {/* {console.log(file)} */}
+    //         <Image source={{ uri: detailMovie.backdrop_path }} style={Styles.backDrop} />
+    //         <View style={Styles.Top}>
+    //             <View>
+    //                 <Icon
+    //                     raised
+    //                     name="chevron-back-circle-outline"
+    //                     type="ionicon"
+    //                     color="#272651"
+    //                     onPress={() => navigation.navigate("HomeScreen")}
+    //                 />
+    //             </View>
+    //             <View style={{ flexDirection: 'row', justifyContent: 'flex-start' }}>
+    //                 <Icon
+    //                     raised
+    //                     name="heart-outline"
+    //                     type="ionicon"
+    //                     color="#272651"
+    //                     onPress={() => navigation.navigate("Home")}
+    //                 />
+    //                 <Icon
+    //                     raised
+    //                     name="share-social"
+    //                     type="ionicon"
+    //                     color="#272651"
+
+    //                 />
+    //             </View>
+    //         </View>
+
+    //         <Text style={Styles.titleDetails}>{detailMovie.title}</Text>
+    //         <Text style={{ color: 'black' }}>{detailMovie.overview}</Text>
+
+
+
+    //         {/* <FlatList data={listGenre}
+    //             horizontal={true}
+    //             keyExtractor={(_item, index) => index}
+    //             renderItem={genres}
+    //             showsHorizontalScrollIndicator={false}
+
+    //         />
+    //         <FlatList data={listCasts}
+    //             // horizontal={false}
+    //             numColumns={3}
+    //             keyExtractor={(_item, index) => index}
+    //             renderItem={casts}
+    //             showsHorizontalScrollIndicator={false}
+    //         /> */}
+
+    //     </View>
+    // )
